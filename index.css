@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+ display: flex;
+    background-color:#232F3E;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.logo{
+    color: #febd69;
+    font-size: 24px;
+    font-weight: bold;
+}
+.search-bar input{
+   width: 300px;
+   padding: 5px;
+
+}
+.search-bar button{
+    padding: 5px 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: 500; 
+    background-color: #febd69;
+}
+.nav{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200px;
+    margin: 0px 30px;
+}
+.banner{
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    
+}.banner img{
+    width: 100%;
+    
+}
+.main{
+    padding:20px;
+    margin: 40px 0px;
+    text-align: center;
+    background-color: rgb(211, 207, 203);
+}
+h1{
+    text-align: center;
+    font-size:50px ;
+}
+.products{
+    display: inline-block;
+    padding: 10px;
+      
+}
+.img{
+    width: 250px;
+    height:250px;
+}
+.img-product{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+.products img{
+    border: #febd69 solid;
+    border-radius: 30px;
+    cursor: pointer;
+}
+h4{
+    font-size: 25px;
+    font-weight:300px ;
+    padding: 10px;
+    color: #000000;
+    cursor: pointer;
+}
+.main2{
+    padding:20px;
+    margin: 40px 0px;
+    text-align: center;
+    background-color: rgb(211, 207, 203);
+}
+.products p{
+    font-size: 20px;
+    cursor: pointer;
+}
+footer{
+    height: 50px;
+    background-color: #232F3E;
+color: #f0f8ff;
+padding: 30px 20px;
+font-size: 20px;
+}
